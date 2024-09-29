@@ -93,4 +93,8 @@ const catchEquals = (equals) => {
     answer=Number(firstNumber)/Number(secondNumber)
     display.textContent=answer
   }
+
+  isFirstNumber=true;
+  firstNumber=""
+  secondNumber=""
 }
